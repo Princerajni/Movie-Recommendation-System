@@ -8,6 +8,7 @@ The movie recommendation system helps users discover movies similar to their fav
 
 # Theory of Recommendation Systems
 
+
 ***What is a Recommendation System?***
 A recommendation system is a subclass of information filtering systems that seek to predict the rating or preference a user would give to an item. They are widely used in various applications like movie recommendations, product recommendations, and content recommendations.
 
