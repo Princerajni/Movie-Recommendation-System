@@ -25,6 +25,18 @@ A recommendation system is a subclass of information filtering systems that seek
 In this project, we use cosine similarity to measure the similarity between movie titles. Cosine similarity is a metric used to measure how similar two vectors are. It is calculated as the cosine of the angle between two vectors projected in a multi-dimensional space. For movie recommendation, the vectors represent movie features, and the similarity score indicates how alike two movies are.
 
 
+# Usage
+
+Run the Streamlit app:      streamlit run app.py
+
+Open your web browser and go to    http://localhost:8501.
+
+Select a movie from the dropdown list and click "Recommend" to get the top 10 recommended movies along with their posters.
+
+
+# Dataset
+The dataset used for this project contains information about movies, including their titles and IDs. It is processed and stored in movie_data.pkl. The dataset is used to calculate the cosine similarity between movies.
+
 
 # Model
 The model for recommending movies is based on cosine similarity. Cosine similarity is used to measure the similarity between movie titles. The model computes the similarity scores and suggests the top 10 similar movies based on the selected movie title.
