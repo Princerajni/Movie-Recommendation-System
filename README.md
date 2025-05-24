@@ -7,17 +7,17 @@ The movie recommendation system helps users discover movies similar to their fav
 
 
 # Theory of Recommendation Systems
-# What is a Recommendation System?
+***What is a Recommendation System?***
 A recommendation system is a subclass of information filtering systems that seek to predict the rating or preference a user would give to an item. They are widely used in various applications like movie recommendations, product recommendations, and content recommendations.
 
-# Types of Recommendation Systems
-1. Content-Based Filtering: This method recommends items similar to those a user liked in the past. It relies on the attributes of the items and a profile of the user's preferences.
+***Types of Recommendation Systems***
+**1. Content-Based Filtering:** This method recommends items similar to those a user liked in the past. It relies on the attributes of the items and a profile of the user's preferences.
 
-2. Collaborative Filtering: This method recommends items based on the preferences of similar users. It doesn't require the attributes of the items and instead focuses on user-item interactions.
+**2. Collaborative Filtering:** This method recommends items based on the preferences of similar users. It doesn't require the attributes of the items and instead focuses on user-item interactions.
 
-3. Hybrid Methods: These methods combine content-based and collaborative filtering to provide more accurate recommendations.
+**3. Hybrid Methods:** These methods combine content-based and collaborative filtering to provide more accurate recommendations.
 
-# Cosine Similarity
+***Cosine Similarity***
 In this project, we use cosine similarity to measure the similarity between movie titles. Cosine similarity is a metric used to measure how similar two vectors are. It is calculated as the cosine of the angle between two vectors projected in a multi-dimensional space. For movie recommendation, the vectors represent movie features, and the similarity score indicates how alike two movies are.
 
 
